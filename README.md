@@ -37,3 +37,11 @@ Header berisi panjang payload dalam byte, dikodekan big-endian unsigned integer.
 
 ## Uji Beberapa Client
 Jalankan beberapa `TCPClient.py` pada terminal berbeda. Setiap koneksi ditangani thread baru pada server.
+
+## Bukti Wireshark
+
+### UDP Heartbeat/Pinger
+![UDP Wireshark](screenshots/udp-wireshark.png)
+
+### TCP Multi-Client
+![TCP Wireshark](screenshots/tcp-wireshark.png)
